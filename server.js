@@ -566,7 +566,7 @@ app.use("*", (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-// Start server and connect to MongoDB
+// Start server connect to MongoDB
 app.listen(PORT, async () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`API Health: http://localhost:${PORT}/api/health`);
