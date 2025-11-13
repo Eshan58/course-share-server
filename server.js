@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 const uri =
   "mongodb+srv://mahdiashan9_db_user:ogNJXZ9ICIBH8dhs@cluster0.qj2eop5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-// Replace <db_password> with your actual password
+// Replace with your actual password
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
