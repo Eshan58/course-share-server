@@ -32,7 +32,6 @@ async function connectDB() {
     db = client.db("courseshare"); // Database name
     console.log("Connected to MongoDB Atlas");
 
-    // Create collections if they don't exist
     await db.createCollection("users");
     await db.createCollection("courses");
     await db.createCollection("enrollments");
