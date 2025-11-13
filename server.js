@@ -576,6 +576,6 @@ app.listen(PORT, async () => {
 // Graceful shutdown
 process.on("SIGINT", async () => {
   console.log("Shutting down gracefully...");
-  await client.close();
+  // await client.close();
   process.exit(0);
 });
