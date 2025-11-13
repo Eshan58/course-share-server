@@ -59,7 +59,6 @@ const userSchema = {
 
 // Simple Auth Middleware
 
-// ADD THIS - More permissive CORS configuration
 app.use(
   cors({
     origin: [
