@@ -108,7 +108,7 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-// ===== COURSE ROUTES =====
+// === COURSE ROUTES ===
 
 // Get all courses with filtering
 app.get("/api/courses", async (req, res) => {
