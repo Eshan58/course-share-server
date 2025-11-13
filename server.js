@@ -151,7 +151,7 @@ app.get("/api/courses", async (req, res) => {
   }
 });
 
-// Get single course with proper ObjectId handling - REMOVED DUPLICATES
+// Get single course with proper ObjectId handling
 app.get("/api/courses/:id", async (req, res) => {
   try {
     const courseId = req.params.id;
