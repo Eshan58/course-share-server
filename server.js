@@ -196,7 +196,7 @@ app.get("/api/courses/:id", async (req, res) => {
   }
 });
 
-// Create new course
+// Create new course section
 app.post("/api/courses", auth, async (req, res) => {
   try {
     const courseData = {
